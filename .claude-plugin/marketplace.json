@@ -1,0 +1,21 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "my-market",
+  "version": "1.0.0",
+  "description": "求是思维工具集——基于实事求是精神的 AI Agent 思维框架与方法论技能",
+  "owner": {
+    "name": "dddandzzz"
+  },
+  "plugins": [
+    {
+      "name": "qiushi-skill",
+      "description": "武装 AI 的思维——矛盾分析、调查研究、群众路线、持久战略等认识论与方法论工具集",
+      "version": "1.0.0",
+      "author": {
+        "name": "dddandzzz"
+      },
+      "source": "./plugins/qiushi-skill",
+      "category": "methodology"
+    }
+  ]
+}
