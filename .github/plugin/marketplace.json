@@ -1,0 +1,19 @@
+{
+  "name": "my-market",
+  "metadata": {
+    "description": "求是思维工具集——基于实事求是精神的 AI Agent 思维框架与方法论技能",
+    "version": "1.0.0",
+    "pluginRoot": "./plugins"
+  },
+  "owner": {
+    "name": "dddandzzz"
+  },
+  "plugins": [
+    {
+      "name": "qiushi-skill",
+      "source": "qiushi-skill",
+      "description": "武装 AI 的思维——基于求是精神的思维框架，包含矛盾分析、调查研究、群众路线等认识论与方法论工具。",
+      "version": "1.0.0"
+    }
+  ]
+}
